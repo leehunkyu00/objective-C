@@ -2,7 +2,7 @@
 //  SignUpScreenUITests.m
 //  SignUpScreenUITests
 //
-//  Created by 이훈규 on 2018. 1. 14..
+//  Created by hklee on 2018. 1. 15..
 //  Copyright © 2018년 hklee. All rights reserved.
 //
 

@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FEAA85200C7EDC00080D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA84200C7EDC00080D97 /* AppDelegate.m */; };
+		28FEAA88200C7EDC00080D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA87200C7EDC00080D97 /* ViewController.m */; };
+		28FEAA8B200C7EDC00080D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAA89200C7EDC00080D97 /* Main.storyboard */; };
+		28FEAA8D200C7EDC00080D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAA8C200C7EDC00080D97 /* Assets.xcassets */; };
+		28FEAA90200C7EDC00080D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAA8E200C7EDC00080D97 /* LaunchScreen.storyboard */; };
+		28FEAA93200C7EDC00080D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA92200C7EDC00080D97 /* main.m */; };
+		28FEAA9D200C7EDC00080D97 /* SelectedCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA9C200C7EDC00080D97 /* SelectedCarTests.m */; };
+		28FEAAA8200C7EDC00080D97 /* SelectedCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAAA7200C7EDC00080D97 /* SelectedCarUITests.m */; };
+		28FEAABE200C824200080D97 /* lamborghini-huracan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAAB6200C824200080D97 /* lamborghini-huracan.jpg */; };
+		28FEAABF200C824200080D97 /* tesla-model-s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAAB7200C824200080D97 /* tesla-model-s.jpg */; };
+		28FEAAC0200C824200080D97 /* porsche-911.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAAB8200C824200080D97 /* porsche-911.jpg */; };
+		28FEAAC1200C824200080D97 /* porsche-boxter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAAB9200C824200080D97 /* porsche-boxter.jpg */; };
+		28FEAAC2200C824200080D97 /* lamborghini-veneno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAABA200C824200080D97 /* lamborghini-veneno.jpg */; };
+		28FEAAC3200C824200080D97 /* tesla-model-x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAABB200C824200080D97 /* tesla-model-x.jpg */; };
+		28FEAAC4200C824200080D97 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAABC200C824200080D97 /* background.jpeg */; };
+		28FEAAC5200C824200080D97 /* lamborghini-aventador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAABD200C824200080D97 /* lamborghini-aventador.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FEAA99200C7EDC00080D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FEAA78200C7EDC00080D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FEAA7F200C7EDC00080D97;
+			remoteInfo = SelectedCar;
+		};
+		28FEAAA4200C7EDC00080D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FEAA78200C7EDC00080D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FEAA7F200C7EDC00080D97;
+			remoteInfo = SelectedCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28FEAA80200C7EDC00080D97 /* SelectedCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectedCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEAA83200C7EDC00080D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28FEAA84200C7EDC00080D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28FEAA86200C7EDC00080D97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28FEAA87200C7EDC00080D97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28FEAA8A200C7EDC00080D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FEAA8C200C7EDC00080D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28FEAA8F200C7EDC00080D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28FEAA91200C7EDC00080D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FEAA92200C7EDC00080D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28FEAA98200C7EDC00080D97 /* SelectedCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectedCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEAA9C200C7EDC00080D97 /* SelectedCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectedCarTests.m; sourceTree = "<group>"; };
+		28FEAA9E200C7EDC00080D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FEAAA3200C7EDC00080D97 /* SelectedCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectedCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEAAA7200C7EDC00080D97 /* SelectedCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectedCarUITests.m; sourceTree = "<group>"; };
+		28FEAAA9200C7EDC00080D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FEAAB6200C824200080D97 /* lamborghini-huracan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lamborghini-huracan.jpg"; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/lamborghini-huracan.jpg"; sourceTree = "<group>"; };
+		28FEAAB7200C824200080D97 /* tesla-model-s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tesla-model-s.jpg"; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/tesla-model-s.jpg"; sourceTree = "<group>"; };
+		28FEAAB8200C824200080D97 /* porsche-911.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "porsche-911.jpg"; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/porsche-911.jpg"; sourceTree = "<group>"; };
+		28FEAAB9200C824200080D97 /* porsche-boxter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "porsche-boxter.jpg"; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/porsche-boxter.jpg"; sourceTree = "<group>"; };
+		28FEAABA200C824200080D97 /* lamborghini-veneno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lamborghini-veneno.jpg"; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/lamborghini-veneno.jpg"; sourceTree = "<group>"; };
+		28FEAABB200C824200080D97 /* tesla-model-x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tesla-model-x.jpg"; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/tesla-model-x.jpg"; sourceTree = "<group>"; };
+		28FEAABC200C824200080D97 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpeg; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/background.jpeg"; sourceTree = "<group>"; };
+		28FEAABD200C824200080D97 /* lamborghini-aventador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lamborghini-aventador.jpg"; path = "../../../../../../../Downloads/Source/9-2. SelectCar Images/lamborghini-aventador.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FEAA7D200C7EDC00080D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA95200C7EDC00080D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAAA0200C7EDC00080D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FEAA77200C7EDC00080D97 = {
+			isa = PBXGroup;
+			children = (
+				28FEAA82200C7EDC00080D97 /* SelectedCar */,
+				28FEAA9B200C7EDC00080D97 /* SelectedCarTests */,
+				28FEAAA6200C7EDC00080D97 /* SelectedCarUITests */,
+				28FEAA81200C7EDC00080D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FEAA81200C7EDC00080D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAA80200C7EDC00080D97 /* SelectedCar.app */,
+				28FEAA98200C7EDC00080D97 /* SelectedCarTests.xctest */,
+				28FEAAA3200C7EDC00080D97 /* SelectedCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FEAA82200C7EDC00080D97 /* SelectedCar */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAAB5200C81F600080D97 /* Resource */,
+				28FEAA83200C7EDC00080D97 /* AppDelegate.h */,
+				28FEAA84200C7EDC00080D97 /* AppDelegate.m */,
+				28FEAA86200C7EDC00080D97 /* ViewController.h */,
+				28FEAA87200C7EDC00080D97 /* ViewController.m */,
+				28FEAA89200C7EDC00080D97 /* Main.storyboard */,
+				28FEAA8C200C7EDC00080D97 /* Assets.xcassets */,
+				28FEAA8E200C7EDC00080D97 /* LaunchScreen.storyboard */,
+				28FEAA91200C7EDC00080D97 /* Info.plist */,
+				28FEAA92200C7EDC00080D97 /* main.m */,
+			);
+			path = SelectedCar;
+			sourceTree = "<group>";
+		};
+		28FEAA9B200C7EDC00080D97 /* SelectedCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAA9C200C7EDC00080D97 /* SelectedCarTests.m */,
+				28FEAA9E200C7EDC00080D97 /* Info.plist */,
+			);
+			path = SelectedCarTests;
+			sourceTree = "<group>";
+		};
+		28FEAAA6200C7EDC00080D97 /* SelectedCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAAA7200C7EDC00080D97 /* SelectedCarUITests.m */,
+				28FEAAA9200C7EDC00080D97 /* Info.plist */,
+			);
+			path = SelectedCarUITests;
+			sourceTree = "<group>";
+		};
+		28FEAAB5200C81F600080D97 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAABC200C824200080D97 /* background.jpeg */,
+				28FEAABD200C824200080D97 /* lamborghini-aventador.jpg */,
+				28FEAAB6200C824200080D97 /* lamborghini-huracan.jpg */,
+				28FEAABA200C824200080D97 /* lamborghini-veneno.jpg */,
+				28FEAAB8200C824200080D97 /* porsche-911.jpg */,
+				28FEAAB9200C824200080D97 /* porsche-boxter.jpg */,
+				28FEAAB7200C824200080D97 /* tesla-model-s.jpg */,
+				28FEAABB200C824200080D97 /* tesla-model-x.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FEAA7F200C7EDC00080D97 /* SelectedCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FEAAAC200C7EDC00080D97 /* Build configuration list for PBXNativeTarget "SelectedCar" */;
+			buildPhases = (
+				28FEAA7C200C7EDC00080D97 /* Sources */,
+				28FEAA7D200C7EDC00080D97 /* Frameworks */,
+				28FEAA7E200C7EDC00080D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectedCar;
+			productName = SelectedCar;
+			productReference = 28FEAA80200C7EDC00080D97 /* SelectedCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FEAA97200C7EDC00080D97 /* SelectedCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FEAAAF200C7EDC00080D97 /* Build configuration list for PBXNativeTarget "SelectedCarTests" */;
+			buildPhases = (
+				28FEAA94200C7EDC00080D97 /* Sources */,
+				28FEAA95200C7EDC00080D97 /* Frameworks */,
+				28FEAA96200C7EDC00080D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FEAA9A200C7EDC00080D97 /* PBXTargetDependency */,
+			);
+			name = SelectedCarTests;
+			productName = SelectedCarTests;
+			productReference = 28FEAA98200C7EDC00080D97 /* SelectedCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28FEAAA2200C7EDC00080D97 /* SelectedCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FEAAB2200C7EDC00080D97 /* Build configuration list for PBXNativeTarget "SelectedCarUITests" */;
+			buildPhases = (
+				28FEAA9F200C7EDC00080D97 /* Sources */,
+				28FEAAA0200C7EDC00080D97 /* Frameworks */,
+				28FEAAA1200C7EDC00080D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FEAAA5200C7EDC00080D97 /* PBXTargetDependency */,
+			);
+			name = SelectedCarUITests;
+			productName = SelectedCarUITests;
+			productReference = 28FEAAA3200C7EDC00080D97 /* SelectedCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FEAA78200C7EDC00080D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hklee;
+				TargetAttributes = {
+					28FEAA7F200C7EDC00080D97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					28FEAA97200C7EDC00080D97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28FEAA7F200C7EDC00080D97;
+					};
+					28FEAAA2200C7EDC00080D97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28FEAA7F200C7EDC00080D97;
+					};
+				};
+			};
+			buildConfigurationList = 28FEAA7B200C7EDC00080D97 /* Build configuration list for PBXProject "SelectedCar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28FEAA77200C7EDC00080D97;
+			productRefGroup = 28FEAA81200C7EDC00080D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FEAA7F200C7EDC00080D97 /* SelectedCar */,
+				28FEAA97200C7EDC00080D97 /* SelectedCarTests */,
+				28FEAAA2200C7EDC00080D97 /* SelectedCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FEAA7E200C7EDC00080D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAAC5200C824200080D97 /* lamborghini-aventador.jpg in Resources */,
+				28FEAA90200C7EDC00080D97 /* LaunchScreen.storyboard in Resources */,
+				28FEAAC2200C824200080D97 /* lamborghini-veneno.jpg in Resources */,
+				28FEAABF200C824200080D97 /* tesla-model-s.jpg in Resources */,
+				28FEAABE200C824200080D97 /* lamborghini-huracan.jpg in Resources */,
+				28FEAAC3200C824200080D97 /* tesla-model-x.jpg in Resources */,
+				28FEAAC1200C824200080D97 /* porsche-boxter.jpg in Resources */,
+				28FEAA8D200C7EDC00080D97 /* Assets.xcassets in Resources */,
+				28FEAAC0200C824200080D97 /* porsche-911.jpg in Resources */,
+				28FEAA8B200C7EDC00080D97 /* Main.storyboard in Resources */,
+				28FEAAC4200C824200080D97 /* background.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA96200C7EDC00080D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAAA1200C7EDC00080D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FEAA7C200C7EDC00080D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAA88200C7EDC00080D97 /* ViewController.m in Sources */,
+				28FEAA93200C7EDC00080D97 /* main.m in Sources */,
+				28FEAA85200C7EDC00080D97 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA94200C7EDC00080D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAA9D200C7EDC00080D97 /* SelectedCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA9F200C7EDC00080D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAAA8200C7EDC00080D97 /* SelectedCarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FEAA9A200C7EDC00080D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FEAA7F200C7EDC00080D97 /* SelectedCar */;
+			targetProxy = 28FEAA99200C7EDC00080D97 /* PBXContainerItemProxy */;
+		};
+		28FEAAA5200C7EDC00080D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FEAA7F200C7EDC00080D97 /* SelectedCar */;
+			targetProxy = 28FEAAA4200C7EDC00080D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28FEAA89200C7EDC00080D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FEAA8A200C7EDC00080D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28FEAA8E200C7EDC00080D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FEAA8F200C7EDC00080D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FEAAAA200C7EDC00080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28FEAAAB200C7EDC00080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FEAAAD200C7EDC00080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNZCE93576;
+				INFOPLIST_FILE = SelectedCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.SelectedCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FEAAAE200C7EDC00080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNZCE93576;
+				INFOPLIST_FILE = SelectedCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.SelectedCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28FEAAB0200C7EDC00080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelectedCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.SelectedCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectedCar.app/SelectedCar";
+			};
+			name = Debug;
+		};
+		28FEAAB1200C7EDC00080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelectedCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.SelectedCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectedCar.app/SelectedCar";
+			};
+			name = Release;
+		};
+		28FEAAB3200C7EDC00080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelectedCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.SelectedCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelectedCar;
+			};
+			name = Debug;
+		};
+		28FEAAB4200C7EDC00080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelectedCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.SelectedCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelectedCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FEAA7B200C7EDC00080D97 /* Build configuration list for PBXProject "SelectedCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAAAA200C7EDC00080D97 /* Debug */,
+				28FEAAAB200C7EDC00080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FEAAAC200C7EDC00080D97 /* Build configuration list for PBXNativeTarget "SelectedCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAAAD200C7EDC00080D97 /* Debug */,
+				28FEAAAE200C7EDC00080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FEAAAF200C7EDC00080D97 /* Build configuration list for PBXNativeTarget "SelectedCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAAB0200C7EDC00080D97 /* Debug */,
+				28FEAAB1200C7EDC00080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FEAAB2200C7EDC00080D97 /* Build configuration list for PBXNativeTarget "SelectedCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAAB3200C7EDC00080D97 /* Debug */,
+				28FEAAB4200C7EDC00080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FEAA78200C7EDC00080D97 /* Project object */;
+}

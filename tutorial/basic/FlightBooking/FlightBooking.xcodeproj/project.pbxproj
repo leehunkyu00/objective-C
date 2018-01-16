@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FEAA45200C6C5600080D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA44200C6C5600080D97 /* AppDelegate.m */; };
+		28FEAA48200C6C5600080D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA47200C6C5600080D97 /* ViewController.m */; };
+		28FEAA4B200C6C5600080D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAA49200C6C5600080D97 /* Main.storyboard */; };
+		28FEAA4D200C6C5600080D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAA4C200C6C5600080D97 /* Assets.xcassets */; };
+		28FEAA50200C6C5600080D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAA4E200C6C5600080D97 /* LaunchScreen.storyboard */; };
+		28FEAA53200C6C5600080D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA52200C6C5600080D97 /* main.m */; };
+		28FEAA5D200C6C5600080D97 /* FlightBookingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA5C200C6C5600080D97 /* FlightBookingTests.m */; };
+		28FEAA68200C6C5600080D97 /* FlightBookingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEAA67200C6C5600080D97 /* FlightBookingUITests.m */; };
+		28FEAA76200C6C8200080D97 /* background 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28FEAA75200C6C8200080D97 /* background 2.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FEAA59200C6C5600080D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FEAA38200C6C5600080D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FEAA3F200C6C5600080D97;
+			remoteInfo = FlightBooking;
+		};
+		28FEAA64200C6C5600080D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FEAA38200C6C5600080D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FEAA3F200C6C5600080D97;
+			remoteInfo = FlightBooking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28FEAA40200C6C5600080D97 /* FlightBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEAA43200C6C5600080D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28FEAA44200C6C5600080D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28FEAA46200C6C5600080D97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28FEAA47200C6C5600080D97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28FEAA4A200C6C5600080D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FEAA4C200C6C5600080D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28FEAA4F200C6C5600080D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28FEAA51200C6C5600080D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FEAA52200C6C5600080D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28FEAA58200C6C5600080D97 /* FlightBookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEAA5C200C6C5600080D97 /* FlightBookingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightBookingTests.m; sourceTree = "<group>"; };
+		28FEAA5E200C6C5600080D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FEAA63200C6C5600080D97 /* FlightBookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightBookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEAA67200C6C5600080D97 /* FlightBookingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightBookingUITests.m; sourceTree = "<group>"; };
+		28FEAA69200C6C5600080D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FEAA75200C6C8200080D97 /* background 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "background 2.jpeg"; path = "../../../../../../Downloads/Source/background 2.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FEAA3D200C6C5600080D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA55200C6C5600080D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA60200C6C5600080D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FEAA37200C6C5600080D97 = {
+			isa = PBXGroup;
+			children = (
+				28FEAA42200C6C5600080D97 /* FlightBooking */,
+				28FEAA5B200C6C5600080D97 /* FlightBookingTests */,
+				28FEAA66200C6C5600080D97 /* FlightBookingUITests */,
+				28FEAA41200C6C5600080D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FEAA41200C6C5600080D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAA40200C6C5600080D97 /* FlightBooking.app */,
+				28FEAA58200C6C5600080D97 /* FlightBookingTests.xctest */,
+				28FEAA63200C6C5600080D97 /* FlightBookingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FEAA42200C6C5600080D97 /* FlightBooking */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAA75200C6C8200080D97 /* background 2.jpeg */,
+				28FEAA43200C6C5600080D97 /* AppDelegate.h */,
+				28FEAA44200C6C5600080D97 /* AppDelegate.m */,
+				28FEAA46200C6C5600080D97 /* ViewController.h */,
+				28FEAA47200C6C5600080D97 /* ViewController.m */,
+				28FEAA49200C6C5600080D97 /* Main.storyboard */,
+				28FEAA4C200C6C5600080D97 /* Assets.xcassets */,
+				28FEAA4E200C6C5600080D97 /* LaunchScreen.storyboard */,
+				28FEAA51200C6C5600080D97 /* Info.plist */,
+				28FEAA52200C6C5600080D97 /* main.m */,
+			);
+			path = FlightBooking;
+			sourceTree = "<group>";
+		};
+		28FEAA5B200C6C5600080D97 /* FlightBookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAA5C200C6C5600080D97 /* FlightBookingTests.m */,
+				28FEAA5E200C6C5600080D97 /* Info.plist */,
+			);
+			path = FlightBookingTests;
+			sourceTree = "<group>";
+		};
+		28FEAA66200C6C5600080D97 /* FlightBookingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28FEAA67200C6C5600080D97 /* FlightBookingUITests.m */,
+				28FEAA69200C6C5600080D97 /* Info.plist */,
+			);
+			path = FlightBookingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FEAA3F200C6C5600080D97 /* FlightBooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FEAA6C200C6C5600080D97 /* Build configuration list for PBXNativeTarget "FlightBooking" */;
+			buildPhases = (
+				28FEAA3C200C6C5600080D97 /* Sources */,
+				28FEAA3D200C6C5600080D97 /* Frameworks */,
+				28FEAA3E200C6C5600080D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightBooking;
+			productName = FlightBooking;
+			productReference = 28FEAA40200C6C5600080D97 /* FlightBooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FEAA57200C6C5600080D97 /* FlightBookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FEAA6F200C6C5600080D97 /* Build configuration list for PBXNativeTarget "FlightBookingTests" */;
+			buildPhases = (
+				28FEAA54200C6C5600080D97 /* Sources */,
+				28FEAA55200C6C5600080D97 /* Frameworks */,
+				28FEAA56200C6C5600080D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FEAA5A200C6C5600080D97 /* PBXTargetDependency */,
+			);
+			name = FlightBookingTests;
+			productName = FlightBookingTests;
+			productReference = 28FEAA58200C6C5600080D97 /* FlightBookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28FEAA62200C6C5600080D97 /* FlightBookingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FEAA72200C6C5600080D97 /* Build configuration list for PBXNativeTarget "FlightBookingUITests" */;
+			buildPhases = (
+				28FEAA5F200C6C5600080D97 /* Sources */,
+				28FEAA60200C6C5600080D97 /* Frameworks */,
+				28FEAA61200C6C5600080D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FEAA65200C6C5600080D97 /* PBXTargetDependency */,
+			);
+			name = FlightBookingUITests;
+			productName = FlightBookingUITests;
+			productReference = 28FEAA63200C6C5600080D97 /* FlightBookingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FEAA38200C6C5600080D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hklee;
+				TargetAttributes = {
+					28FEAA3F200C6C5600080D97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					28FEAA57200C6C5600080D97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28FEAA3F200C6C5600080D97;
+					};
+					28FEAA62200C6C5600080D97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28FEAA3F200C6C5600080D97;
+					};
+				};
+			};
+			buildConfigurationList = 28FEAA3B200C6C5600080D97 /* Build configuration list for PBXProject "FlightBooking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28FEAA37200C6C5600080D97;
+			productRefGroup = 28FEAA41200C6C5600080D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FEAA3F200C6C5600080D97 /* FlightBooking */,
+				28FEAA57200C6C5600080D97 /* FlightBookingTests */,
+				28FEAA62200C6C5600080D97 /* FlightBookingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FEAA3E200C6C5600080D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAA50200C6C5600080D97 /* LaunchScreen.storyboard in Resources */,
+				28FEAA4D200C6C5600080D97 /* Assets.xcassets in Resources */,
+				28FEAA4B200C6C5600080D97 /* Main.storyboard in Resources */,
+				28FEAA76200C6C8200080D97 /* background 2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA56200C6C5600080D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA61200C6C5600080D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FEAA3C200C6C5600080D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAA48200C6C5600080D97 /* ViewController.m in Sources */,
+				28FEAA53200C6C5600080D97 /* main.m in Sources */,
+				28FEAA45200C6C5600080D97 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA54200C6C5600080D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAA5D200C6C5600080D97 /* FlightBookingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FEAA5F200C6C5600080D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FEAA68200C6C5600080D97 /* FlightBookingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FEAA5A200C6C5600080D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FEAA3F200C6C5600080D97 /* FlightBooking */;
+			targetProxy = 28FEAA59200C6C5600080D97 /* PBXContainerItemProxy */;
+		};
+		28FEAA65200C6C5600080D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FEAA3F200C6C5600080D97 /* FlightBooking */;
+			targetProxy = 28FEAA64200C6C5600080D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28FEAA49200C6C5600080D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FEAA4A200C6C5600080D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28FEAA4E200C6C5600080D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FEAA4F200C6C5600080D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FEAA6A200C6C5600080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28FEAA6B200C6C5600080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FEAA6D200C6C5600080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.FlightBooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FEAA6E200C6C5600080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.FlightBooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28FEAA70200C6C5600080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBookingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.FlightBookingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightBooking.app/FlightBooking";
+			};
+			name = Debug;
+		};
+		28FEAA71200C6C5600080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBookingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.FlightBookingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightBooking.app/FlightBooking";
+			};
+			name = Release;
+		};
+		28FEAA73200C6C5600080D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBookingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.FlightBookingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightBooking;
+			};
+			name = Debug;
+		};
+		28FEAA74200C6C5600080D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBookingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hklee.sample.FlightBookingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightBooking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FEAA3B200C6C5600080D97 /* Build configuration list for PBXProject "FlightBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAA6A200C6C5600080D97 /* Debug */,
+				28FEAA6B200C6C5600080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FEAA6C200C6C5600080D97 /* Build configuration list for PBXNativeTarget "FlightBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAA6D200C6C5600080D97 /* Debug */,
+				28FEAA6E200C6C5600080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FEAA6F200C6C5600080D97 /* Build configuration list for PBXNativeTarget "FlightBookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAA70200C6C5600080D97 /* Debug */,
+				28FEAA71200C6C5600080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FEAA72200C6C5600080D97 /* Build configuration list for PBXNativeTarget "FlightBookingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FEAA73200C6C5600080D97 /* Debug */,
+				28FEAA74200C6C5600080D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FEAA38200C6C5600080D97 /* Project object */;
+}
