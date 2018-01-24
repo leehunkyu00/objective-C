@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jo3-pq-rL3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--London Landmarks-->
+        <scene sceneID="ohF-dq-JLT">
+            <objects>
+                <tableViewController id="N8K-Yq-gCH" customClass="TableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wvE-vn-FXH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="134" id="xmf-WL-hk4" customClass="TableViewCell">
+                                <rect key="frame" x="0.0" y="28" width="375" height="134"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xmf-WL-hk4" id="wcp-H1-oGr">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="133.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BigBen" translatesAutoresizingMaskIntoConstraints="NO" id="u3s-nh-izI">
+                                            <rect key="frame" x="16" y="11" width="144" height="110"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="u3s-nh-izI" secondAttribute="height" multiplier="72:55" id="vFe-Qe-7qZ"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Big Ban" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8o-d6-TTK">
+                                            <rect key="frame" x="180" y="32" width="179" height="30"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" red="0.66342025995254517" green="0.35748711228370667" blue="0.27040466666221619" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="London SW1A 0AA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnS-Zd-gWs">
+                                            <rect key="frame" x="180" y="64" width="179" height="35"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="nnS-Zd-gWs" firstAttribute="trailing" secondItem="wcp-H1-oGr" secondAttribute="trailingMargin" id="1hZ-8K-WJG"/>
+                                        <constraint firstItem="nnS-Zd-gWs" firstAttribute="leading" secondItem="u3s-nh-izI" secondAttribute="trailing" constant="20" id="4dn-2W-bMu"/>
+                                        <constraint firstItem="u3s-nh-izI" firstAttribute="leading" secondItem="wcp-H1-oGr" secondAttribute="leadingMargin" id="5xg-SV-fJa"/>
+                                        <constraint firstItem="p8o-d6-TTK" firstAttribute="leading" secondItem="u3s-nh-izI" secondAttribute="trailing" constant="20" id="DIZ-RP-sj2"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="u3s-nh-izI" secondAttribute="bottom" constant="2" id="DIm-Nr-lTn"/>
+                                        <constraint firstItem="u3s-nh-izI" firstAttribute="top" secondItem="wcp-H1-oGr" secondAttribute="topMargin" id="HGD-Ox-ht4"/>
+                                        <constraint firstItem="nnS-Zd-gWs" firstAttribute="height" secondItem="p8o-d6-TTK" secondAttribute="height" id="RG7-QU-613"/>
+                                        <constraint firstItem="nnS-Zd-gWs" firstAttribute="width" secondItem="p8o-d6-TTK" secondAttribute="width" id="UGQ-6N-eoJ"/>
+                                        <constraint firstItem="nnS-Zd-gWs" firstAttribute="top" secondItem="p8o-d6-TTK" secondAttribute="bottom" constant="8" id="Wdz-rb-GA6"/>
+                                        <constraint firstItem="p8o-d6-TTK" firstAttribute="trailing" secondItem="wcp-H1-oGr" secondAttribute="trailingMargin" id="WrV-iQ-pxb"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nnS-Zd-gWs" secondAttribute="bottom" constant="2" id="XPw-TJ-syi"/>
+                                        <constraint firstItem="p8o-d6-TTK" firstAttribute="top" secondItem="wcp-H1-oGr" secondAttribute="topMargin" id="aJ4-z8-tE4"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellDescription" destination="nnS-Zd-gWs" id="jzF-jY-cc6"/>
+                                    <outlet property="cellImageView" destination="u3s-nh-izI" id="izE-UY-mEY"/>
+                                    <outlet property="cellTitle" destination="p8o-d6-TTK" id="Dmn-o6-S8s"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="N8K-Yq-gCH" id="efz-xL-JtX"/>
+                            <outlet property="delegate" destination="N8K-Yq-gCH" id="lzb-rw-cen"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="London Landmarks" id="vHh-1f-ADj"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YaK-qs-1ST" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="86.806596701649184"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8or-El-ncO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jo3-pq-rL3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="3yu-NC-6pf">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="N8K-Yq-gCH" kind="relationship" relationship="rootViewController" id="FEJ-2O-PhL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydF-vi-FIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="87"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BigBen" width="1000" height="567"/>
+    </resources>
+</document>
