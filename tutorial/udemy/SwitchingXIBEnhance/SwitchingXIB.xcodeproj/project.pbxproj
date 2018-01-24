@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28639EA5201863660071CF87 /* SubWindow2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28639EA3201863660071CF87 /* SubWindow2ViewController.m */; };
+		28639EA6201863660071CF87 /* SubWindow2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28639EA4201863660071CF87 /* SubWindow2ViewController.xib */; };
 		28E759FA20184A9100810714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E759F920184A9100810714 /* AppDelegate.m */; };
 		28E759FD20184A9100810714 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E759FC20184A9100810714 /* ViewController.m */; };
 		28E75A0020184A9100810714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E759FE20184A9100810714 /* Main.storyboard */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28639EA2201863660071CF87 /* SubWindow2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWindow2ViewController.h; sourceTree = "<group>"; };
+		28639EA3201863660071CF87 /* SubWindow2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWindow2ViewController.m; sourceTree = "<group>"; };
+		28639EA4201863660071CF87 /* SubWindow2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubWindow2ViewController.xib; sourceTree = "<group>"; };
 		28E759F520184A9100810714 /* SwitchingXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchingXIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E759F820184A9100810714 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28E759F920184A9100810714 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +84,9 @@
 				28E75A132018530000810714 /* SubWindowViewController.h */,
 				28E75A142018530000810714 /* SubWindowViewController.m */,
 				28E75A152018530000810714 /* SubWindowViewController.xib */,
+				28639EA2201863660071CF87 /* SubWindow2ViewController.h */,
+				28639EA3201863660071CF87 /* SubWindow2ViewController.m */,
+				28639EA4201863660071CF87 /* SubWindow2ViewController.xib */,
 				28E75A0120184A9100810714 /* Assets.xcassets */,
 				28E75A0320184A9100810714 /* LaunchScreen.storyboard */,
 				28E75A0620184A9100810714 /* Info.plist */,
@@ -147,6 +155,7 @@
 			files = (
 				28E75A1220184AE900810714 /* SecondViewController.xib in Resources */,
 				28E75A172018530000810714 /* SubWindowViewController.xib in Resources */,
+				28639EA6201863660071CF87 /* SubWindow2ViewController.xib in Resources */,
 				28E75A0520184A9100810714 /* LaunchScreen.storyboard in Resources */,
 				28E75A0220184A9100810714 /* Assets.xcassets in Resources */,
 				28E75A0020184A9100810714 /* Main.storyboard in Resources */,
@@ -160,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28639EA5201863660071CF87 /* SubWindow2ViewController.m in Sources */,
 				28E75A1120184AE900810714 /* SecondViewController.m in Sources */,
 				28E75A162018530000810714 /* SubWindowViewController.m in Sources */,
 				28E759FD20184A9100810714 /* ViewController.m in Sources */,

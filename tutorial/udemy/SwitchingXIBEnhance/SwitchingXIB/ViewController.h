@@ -11,7 +11,10 @@
 @interface ViewController : UIViewController
 - (IBAction)switchView:(id)sender;
 - (IBAction)showView:(id)sender;
-//@property (strong, nonatomic) IBOutlet UIView *subWindowView;
+- (IBAction)showView2:(id)sender;
+- (IBAction)showTableView:(id)sender;
+
+
 @property (strong, nonatomic) IBOutlet UIView *subWindowView;
 
 
