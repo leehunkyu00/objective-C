@@ -10,6 +10,7 @@
 #import "SecondViewController.h"
 #import "SubWindowViewController.h"
 #import "SubWindow2ViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()
 
@@ -62,5 +63,10 @@
 }
 
 - (IBAction)showTableView:(id)sender {
+    TableViewController *tableViewController;
+    
+    tableViewController = [[TableViewController alloc] initWithNibName:nil bundle:nil];
+    
+    [subWindowView addSubview:tableViewController.view];
 }
 @end
