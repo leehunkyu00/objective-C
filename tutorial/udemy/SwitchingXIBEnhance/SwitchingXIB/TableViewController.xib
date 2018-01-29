@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableViewController">
             <connections>
+                <outlet property="tab1priceScrollView" destination="GKg-V8-pEU" id="6ya-eq-hoL"/>
+                <outlet property="tab1priceView" destination="eKe-40-txy" id="Nis-DO-ZvE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,17 +22,32 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Cv-p2-8O0">
-                    <rect key="frame" x="0.0" y="0.0" width="140" height="240"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="RIw-oy-a2s"/>
-                        <outlet property="delegate" destination="-1" id="F3v-av-tAy"/>
-                    </connections>
-                </tableView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKg-V8-pEU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKe-40-txy">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="375" id="DTb-kh-TKH"/>
+                                <constraint firstAttribute="height" constant="240" id="nkd-8C-lx5"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="eKe-40-txy" firstAttribute="leading" secondItem="GKg-V8-pEU" secondAttribute="leading" id="TiL-4y-vpC"/>
+                        <constraint firstAttribute="bottom" secondItem="eKe-40-txy" secondAttribute="bottom" id="d9T-kb-0vQ"/>
+                        <constraint firstAttribute="trailing" secondItem="eKe-40-txy" secondAttribute="trailing" id="hi3-6l-d9u"/>
+                        <constraint firstItem="eKe-40-txy" firstAttribute="top" secondItem="GKg-V8-pEU" secondAttribute="top" id="jIP-sP-iN5"/>
+                    </constraints>
+                </scrollView>
             </subviews>
-            <color key="backgroundColor" red="0.80712534881180154" green="1" blue="0.16097237480063886" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="GKg-V8-pEU" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="5dV-Ks-Zyg"/>
+                <constraint firstItem="GKg-V8-pEU" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="BFD-xX-L7u"/>
+                <constraint firstItem="GKg-V8-pEU" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="CNC-EW-V0r"/>
+                <constraint firstItem="GKg-V8-pEU" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="yoc-GL-lcz"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="33.5" y="55"/>
